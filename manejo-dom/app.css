@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0, 20, 39);
+    font-family: sans-serif;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    font-size:35px;
+}
+.btn{
+    background: rgb(202, 98, 72);
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    color: #fff;
+}
+.lista{
+    list-style: none;
+    border: solid .3px rgba(175, 174, 174, 0.281);
+    transition: all ease .5s;
+}
+.active{
+    transition: all ease .5s;
+    transform: scale(1.1);
+    transform: translateY(-10px);
+    transform: translateX(-10px);
+    transform: rotate(-10deg);
+    background: rgba(58, 133, 231, 0.603);
+}
